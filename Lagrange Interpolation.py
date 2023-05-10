@@ -1,4 +1,6 @@
 import copy
+import matplotlib.pyplot as plt
+import numpy as np
 
 def Eval_poly(P,t):
     
