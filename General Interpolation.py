@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
 def Tab_diff_div(X,Y):
     if(len(X)==1):
         return Y[0]
