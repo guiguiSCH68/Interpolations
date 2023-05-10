@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 interpolation_initiale = interpol_process(liste_support_initial, liste_valeur_initial)
 
 #template for plotting an interpolation
