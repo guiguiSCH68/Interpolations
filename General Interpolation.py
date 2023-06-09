@@ -36,7 +36,7 @@ def Interpol(n,X,Y): # il faut que X contienne n+1 "points" pour pouvoir interpo
 #computes the acutal interpolation curb
 def interpol_process(liste_support,liste_valeurs): 
     
-    resultat = Interpol(len(liste_support_initial)-1,liste_support,liste_valeurs)
+    resultat = Interpol(len(liste_support)-1,liste_support,liste_valeurs)
 
     X_pts = []
         
